@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: black;
+  
+}
+
+.event {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex; 
+    justify-content: space-between;
+    color: blanchedalmond;
+}
+
+.details-btn {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: blanchedalmond;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+}
+
+.details-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #4CAF50;
+}
+
+.logo{
+    background-color: #4CAF50;
+    font-weight: 600;
+    padding: 10px;
+    color: blanchedalmond;
+}
